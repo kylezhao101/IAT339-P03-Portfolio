@@ -18,3 +18,4 @@ requestAnimationFrame(function loop() {
   cursorBorder.style.transform = `translate(${cursorBorderPos.x}px, ${cursorBorderPos.y}px)`;
   requestAnimationFrame(loop);
 });
+

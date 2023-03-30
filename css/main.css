@@ -32,9 +32,10 @@ body{
     padding:0;
     margin:0;
     color:rgb(2, 2, 2);
-    background-color: #f1f1f1;
-    padding-left:5%;
-    padding-right:5%;
+    background-color: rgb(241, 241, 241);
+}
+canvas {
+    display: block;
 }
 .landing{
     display:flex;
@@ -43,6 +44,18 @@ body{
     justify-content:center;
     padding-left:20%;
     padding-right:20%;
+}
+.landing-text{
+    padding:1em;
+    border-radius:10px;
+    
+    background-color:rgb(241, 241, 241, 0.7);
+    border:0.2em solid #313fbf;
+    transition: all 0.2s;
+}
+.landing-text:hover {
+    transform:translateY(-5px); ;
+    background-color:rgba(241, 241, 241, 0.9);
 }
 h1{ 
     margin:0;
@@ -110,10 +123,17 @@ li{
     background-color:#3f1dff00;
     transform: translateY(-5px);
 }
+.projects{
+    padding-left: 5%;
+    padding-right:5%;
+}
+
 .project-tag-container{
     display:flex;
 }
 .project-container{
+    padding-left:5%;
+    padding-right:5%;
     margin-top:150px;
     display:flex;
     justify-content:space-evenly;
@@ -144,7 +164,7 @@ li{
     text-decoration:none;
     font-family:'Montserrat',sans-serif;
     font-weight:600;
-    color:hsl(234, 59%, 47%);
+    color:#313fbf;
     text-align:center;
     transition: all 0.2s;
 }
@@ -189,6 +209,8 @@ li{
     object-fit:cover;
 }
 .about{
+    padding-left:5%;
+    padding-right:5%;
     height:80vh;
     display:flex;
     flex-direction: column;
