@@ -19,6 +19,32 @@
         
     </head>
     <body>
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <div class ="brand-name"><a class="link-text" href="#index.html">Kyle Zhao</a>
+            </div>
+
+            <input type="checkbox" id="menu-toggle"/>
+            <!-- svg from https://heroicons.com/-->
+            <label for="menu-toggle" class="hamburger" id="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg> 
+            </label>
+
+            <ul class="nav-bar-links">
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>          
+            </ul>
+        </nav>
+
         <script src="js/sketch.js"></script> 
         <div id="cursor"></div>
         <div id="cursor-border"></div>
@@ -27,24 +53,26 @@
             <p>Hi! I am</p>
             <h1><span>Kyle Zhao</span></h1>  
             <h2>Studying <span>Interactive Arts and Technology</span> and Minoring in <span>Computer Science</span> at Simon Fraser University.</body></h2>
+            <p>Perlin noise graph adapted from <a class="link-text" href="https://codepen.io/xdesro/pen/LvGEWb">Henry Desroches</a> </p>
             </div>
+            
         </div>
         
-        <div class="about">
+        <div class="about" id="about-me">
            
         <h3>About Me</h3>
             <p>Hi, I'm Kyle, a multidisciplinary who is passionate about web development, graphic design, and computer science. 
                 <br><br>I'm an eager and Learning Front-end developer and applying my interests in art, graphic design, and math. Beginning in high school, I've developed my skills in Photoshop, and am continuing this passion both in my post-secondary studies at Simon Fraser University and further in my personal projects. 
                 <br><br>Here's some technologies I'm currently learning right now:
                 <ul>
-                    <a class="link-text" href="#"><li>P5 js</li></a>
-                    <a class="link-text" href="#"><li>Three js</li></a>
-                    <a class="link-text" href="#"><li>React</li></a>
+                    <a class="link-text" href="https://p5js.org/"><li>P5 js</li></a>
+                    <a class="link-text" href="https://threejs.org/"><li>Three js</li></a>
+                    <a class="link-text" href="https://react.dev/"><li>React</li></a>
                 </ul>
             </p>
             
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
         <h3>Projects I've worked on</h3>
         <div class="project-container">
             
@@ -57,11 +85,13 @@
                     <div class="project-tag">YoutubeDL</div>
                 </div>
                 <p>A music bot compatible with YouTube and Soundcloud, with an individual user favoriting system.</p>
-            <a class="button-nav" href="#">Learn More</a>
+            <a class="button-nav" href="discord-bot.html">Learn More</a>
+            <a class="button-nav" href="https://github.com/kylezhao101/Discord-Music-Bot">GitHub</a>
             </div>
 
             <div class="project-card">
-                <img src="https://cdn.discordapp.com/attachments/533083058711166976/1087957917837307904/image.png" alt="project-one-cover" />
+                <a href="discord-bot.html"><img src="https://cdn.discordapp.com/attachments/533083058711166976/1087957917837307904/image.png" alt="project-one-cover" href="discord-bot.html"/>
+                </a>
             </div>
         </div>
 
@@ -74,17 +104,22 @@
                     <div class="project-tag">Responsive Design</div>
                 </div>
                 <p>IAT339 Web Design and Development project.</p>
-            <a class="button-nav" href="#">Learn More</a>
+            <a class="button-nav" href="keyluxe.html">Learn More</a>
+            <a class="button-nav" href="https://github.com/kylezhao101/IAT339-P02-keyboardBrandSite">GitHub</a>
             </div>
             <div class="project-card">
+                <a href="keyluxe.html">
                 <img src="https://cdn.discordapp.com/attachments/533083058711166976/1087969652073828402/image.png" alt="project-one-cover" />
+                </a>
             </div>
         </div>
         
-        <div class="contact">
-                <h4>Get in touch</h4>
-                <a class="link-text" href="#"><h4>kylezhao101@gmail.com</h4></a>
-                <a class="button-nav" href="#">Github</a>
+        <div class="contact" id="contact">
+                <h3>Get in touch</h3>
+                <a  class="link-text" href = "mailto:kylezhao101@gmail.com?" target=”_blank”>
+                    <h4>kylezhao101@gmail.com</h4>
+                </a>
+                <a class="button-nav" href="https://github.com/kylezhao101">Github</a>
 
         </div>
     </body>
