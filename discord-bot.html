@@ -12,20 +12,58 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,300&display=swap" rel="stylesheet">
-        <script defer src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <div id="cursor"></div>
-<div id="cursor-border"></div>
+         <!-- Main Navigation Bar -->
+         <nav class="main-nav">
+            <div class ="brand-name"><a class="link-text" href="index.html">Kyle Zhao</a>
+            </div>
 
-        <h3>Project Overview</h3>
-        <p>In this project, I utilized Youtube-DL, Asyncio, and Discord.py to create a multi-threaded, Youtube and Soundcloud music music player bot for users to listen and manipulate through their Discord applications using text commands.</p>
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088332898307932221/image.png" alt="project-one-cover" />
-        <p>With MongoDB integration, bot users are able manage and play their favorite songs. </p>
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088332782826164274/image.png" alt="project-one-cover" />
-        <p>As this is one of my first coding projects, I learned how to Google effectively in order to learn and debug new and unfamilliar APIs. Throughout the process of creating this bot, I further gained knowledge in these APIs through reading documentation, viewing examples and looking for solutions to my issues on stackoverflow.</p>
-        <h3>Issues</h3>
-        <p>This bot uses Youtube-dl to scrape and retrieve audio files from Youtube.com, however it has been abandoned as of 2021.12.17. The current bot uses a fork of Youtube-dl, yt-dlp which continues to adapt as the official Youtube site changes. Thus, my bot requires constant use and maintainance, which involves bug-fixing and updating code whenever Youtube makes changes.</p>
+            <input type="checkbox" id="menu-toggle"/>
+            <!-- svg from https://heroicons.com/-->
+            <label for="menu-toggle" class="hamburger" id="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg> 
+            </label>
+
+            <ul class="nav-bar-links">
+                <li>
+                    <a href="index.html#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="index.html#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>          
+            </ul>
+        </nav>
+        <div class="project-overview">
+            <h3>Project Overview</h3>
+            <a class="button-nav" href="https://github.com/kylezhao101/Discord-Music-Bot">GitHub</a>
+            <p>In this project, I utilized Youtube-DL, Asyncio, and Discord.py to create a multi-threaded, Youtube and Soundcloud music music player bot for users to listen and manipulate through their Discord applications using text commands.</p>
+            <img class="project-image" src="https://cdn.discordapp.com/attachments/533083058711166976/1088332898307932221/image.png" alt="project-one-cover"/>
+            <p>With MongoDB integration, bot users are able manage and play their favorite songs. </p>
+            <img class="project-image" src="https://cdn.discordapp.com/attachments/533083058711166976/1088332782826164274/image.png" alt="project-one-cover" />
+            <p>As this is one of my first coding projects, I learned how to Google effectively in order to learn and debug new and unfamilliar APIs. Throughout the process of creating this bot, I further gained knowledge in these APIs through reading documentation, viewing examples and looking for solutions to my issues on stackoverflow.</p>
+            <h3>Issues</h3>
+            <p>This bot uses Youtube-dl to scrape and retrieve audio files from Youtube.com, however it has been abandoned as of 2021.12.17. The current bot uses a fork of Youtube-dl, yt-dlp which continues to adapt as the official Youtube site changes. Thus, my bot requires constant use and maintainance, which involves bug-fixing and updating code whenever Youtube makes changes.</p>
+            <h3>My Learning Outcomes</h3>
+            <ul>
+                <li>
+                    Project management skills
+                </li>
+                <p>During the development of, I learning how to manage this project to keep my progression organized and focused. Starting this project and during the duration of it, I set clear goals for the bot and features that I would eventually implement. Using Git version control as well as replit, I kept track of my changes which assisted in bug-fixing.</p><br>
+                <li>
+                    Technical skills
+                </li>
+                <p>I improved my proficiency in the Python programming language, I learned how to use APIs through their reading their documentation and learning from their examples.</p>     
+            </ul>
+            <h2>Read about the next project:</h2>
+            <a class="button-nav" href="keyluxe.html">Learn More</a>
+        </div>
     </body>
     <footer>
     </footer>

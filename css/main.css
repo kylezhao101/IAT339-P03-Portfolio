@@ -15,6 +15,7 @@ canvas {
     display: block;
 }
 .landing{
+    margin-top:6rem;
     display:flex;
     flex-direction:column;
     height:80vh;
@@ -47,7 +48,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30pt;
-    margin-top:10px;
+    margin-top:20px;
     color:#827e92;
 }
 h2 span{
@@ -68,7 +69,7 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 18pt; 
-    margin-bottom:0;
+    margin-bottom:2rem;
     width:80%;
 }
 li{
@@ -80,7 +81,7 @@ li{
 }
 
 .main-nav{
-    
+    top:0;
     z-index: 100;
     display:flex;
     justify-content: space-between;
@@ -287,4 +288,19 @@ li{
     text-align: center;
 }
 .project-overview{
+  margin-top:6rem;
+  padding-left:20%;
+  padding-right:5%;
+}
+.project-image{
+  border-radius: 12px;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+@media only screen and (max-width: 1000px) {
+  .project-overview{
+    padding-left:5%;
+  }
+  
 }
