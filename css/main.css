@@ -282,6 +282,8 @@ li{
 }
 .contact{
     text-align: center;
+    margin-left:30%;
+    margin-right:30%;
 }
 .projects{
 
@@ -361,6 +363,11 @@ li{
   
     margin-bottom:30vh;
     margin-top:30vh;
+  }
+  .contact{
+    text-align: center;
+    margin-left:0%;
+    margin-right:0%;
   }
 
 }
