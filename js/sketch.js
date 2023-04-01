@@ -38,5 +38,4 @@ function draw(){
     };
     yOffset += 0.01;
     endShape();
-    
 }
