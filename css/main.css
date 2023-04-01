@@ -70,7 +70,7 @@ p{
     font-weight: 300;
     font-size: 18pt; 
     margin-bottom:2rem;
-    width:80%;
+    width:90%;
 }
 li{
     font-family: 'Source Sans Pro', sans-serif;
@@ -107,7 +107,9 @@ li{
   }
   
   .nav-bar-links a {
-    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
     transition-property: color;
     transition-duration: 0.2s;
     text-decoration: none;
@@ -290,17 +292,27 @@ li{
 .project-overview{
   margin-top:6rem;
   padding-left:20%;
-  padding-right:5%;
+  padding-right:20%;
+  margin-bottom:6rem;
 }
 .project-image{
   border-radius: 12px;
   width: 100%;
   max-width: 700px;
   height: auto;
+
+  margin:auto;
+}
+.project-image-vertical{
+  border-radius: 12px;
+  width: 30%;
+  max-width: 700px;
+  height: auto;
 }
 @media only screen and (max-width: 1000px) {
   .project-overview{
     padding-left:5%;
+    padding-right:5%;
   }
   
 }

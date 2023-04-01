@@ -12,30 +12,67 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,900;1,300&display=swap" rel="stylesheet">
-        <script defer src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-        <div id="cursor"></div>
-<div id="cursor-border"></div>
+        <!-- Main Navigation Bar -->
+        <nav class="main-nav">
+            <div class ="brand-name"><a class="link-text" href="index.html">Kyle Zhao</a>
+            </div>
 
-        <h3>Project Overview</h3>
-        <p>.</p>
-        <div class="project-overview-img">
-            <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088353111019626597/image.png" alt="project-one-cover" />
+            <input type="checkbox" id="menu-toggle"/>
+            <!-- svg from https://heroicons.com/-->
+            <label for="menu-toggle" class="hamburger" id="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg> 
+            </label>
+
+            <ul class="nav-bar-links">
+                <li>
+                    <a href="index.html#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="index.html#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>          
+            </ul>
+        </nav>
+
+        <div class="project-overview">
+            <h3>Project Overview</h3>
+            <a class="button-nav" href="https://github.com/kylezhao101/IAT339-P02-keyboardBrandSite">GitHub</a>
+            <a class="button-nav" href="https://iat-339-p02-keyboard-brand-site.vercel.app/">View the site</a>
+
+            <p>This project required the creation of a fictional keyboard brand and its website. Pages for product listings, landing page, about us, and checkout process have been created. This project began with the creation of a style guide, followed by the website being built using these elements.</p>
+            <img class="project-image" src="https://cdn.discordapp.com/attachments/533083058711166976/1088353951574937610/image.png" alt="project-one-cover"/>
+            <p>As the website needed to be responsive for varying window sizes and viewing devices, by using media queries, elements such as this footer are re-arranged to fit the new dimensions.</p>
+            <img class="project-image" src="https://cdn.discordapp.com/attachments/533083058711166976/1088352980916510740/image.png" alt="project-one-cover" />
+            <p>As this is one of my first coding projects, I learned how to Google effectively in order to learn and debug new and unfamilliar APIs. </p>
+            <h3>Accounting for mobile devices</h3>
+            <p>The following screenshots also demonstrate the responsiveness as the core layout, information hierarchy, and visual aesthetic of the website is retained in a mobile browser.</p>
+            <img class="project-image-vertical" src="https://cdn.discordapp.com/attachments/533083058711166976/1091483419793428481/Screenshot_20230331-144018_Samsung_Internet.jpg" alt="project-one-cover" />
+            <img class="project-image-vertical" src="https://cdn.discordapp.com/attachments/533083058711166976/1091483420087038164/Screenshot_20230331-144053_Samsung_Internet.jpg" alt="project-one-cover" />
+            <img class="project-image-vertical" src="https://cdn.discordapp.com/attachments/533083058711166976/1091485657291042908/Screenshot_20230331-151410_Chrome.jpg" alt="project-one-cover" />
+            <h3>Branding</h3>
+            <p>Finally, the KeyLuxe brand identity is outlined in the style guide of the website. With the selection of specific colours for difference interaction methods and implications, as well as typography and modern and elegant usage of photography, a strong brand identity for KeyLuxe was created reflecting the brands core values.  </p>
+            <img class="project-image" src="https://cdn.discordapp.com/attachments/533083058711166976/1088354197923172352/image.png" alt="project-one-cover" />
+            <h3>My Learning Outcomes</h3>
+            <ul>
+                <li>
+                    Designing for accessibility
+                </li>
+                <p>During the development of, I learning to consistently test the website with various browser dimensions. I did this to ensure the website's layout would appear organized throughout varying devices. Throughout this testing I would find certain points at which the layout of a section would break or ruin the overall appearance, at which I would use a media query to adjust it.</p><br>
+                <li>
+                    File Organization
+                </li>
+                <p>As the website had varying pages, elements, and specific layouts, the overall amount of class names and line number of the stylesheet greatly increased. In order to keep a clean and organized stylesheet, I implemented a naming system for classes and grouped them so I could easily find them. Finding my desired css selector was further sped up through utilizing the (ctrl + f) search box for keywords. </p>
+            </ul>
+            <h2>Read about the next project:</h2>
+            <a class="button-nav" href="discord-bot.html">Discord Python Music Bot</a>
         </div>
-        <p>With MongoDB integration, bot users are able manage and play their favorite songs. </p>
-        <div class="project-overview-img">
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088352980916510740/image.png" alt="project-one-cover" />
-        </div>
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088353208289738832/image.png" alt="project-one-cover" />
-
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088353281006391306/image.png" alt="project-one-cover" />
-
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088353951574937610/image.png" alt="project-one-cover" />
-        <img src="https://cdn.discordapp.com/attachments/533083058711166976/1088354197923172352/image.png" alt="project-one-cover" />
-        <p></p>
-        <h3>Issues</h3>
-        <p></p>
     </body>
     <footer>
     </footer>
