@@ -339,7 +339,7 @@ li{
     transition: all 0.3s;
   }
   .landing{
-    margin-top:6rem;
+    margin-top:10rem;
     display:flex;
     flex-direction:column;
     height:80vh;
@@ -349,7 +349,6 @@ li{
   }
   .landing-text{
     border:none;
-    border-bottom:0.2em solid #313fbf;
   }
   .landing-block{
     margin-left:0%;
