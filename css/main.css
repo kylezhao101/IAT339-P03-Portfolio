@@ -282,12 +282,11 @@ li{
 }
 .contact{
     text-align: center;
-    margin-left:30%;
-    margin-right:30%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:30vh;
 }
-.projects{
 
-}
 .landing-block{
   margin-left:10%;
   margin-right:10%;
@@ -296,7 +295,6 @@ li{
   backdrop-filter: blur( 2px );
   background-color:rgb(241, 241, 241, 0.7);
   border:0.2em solid #313fbf;
-
   margin-bottom:30vh;
   margin-top:30vh;
 }
@@ -321,7 +319,7 @@ li{
   max-width: 700px;
   height: auto;
 }
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 820px) {
   *s{border:red 1px solid;}
   .landing-block{
     margin-left:5%;
