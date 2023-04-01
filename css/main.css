@@ -139,7 +139,7 @@ li{
     .nav-bar-links{
       flex-direction: column;
       width:100%;
-      background-color: rgba(241, 241, 241, 0.9);;
+      background-color: rgba(241, 241, 241, 0.7);;
       display:none;
     }
     .nav-bar-links li{
