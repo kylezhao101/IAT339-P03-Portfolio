@@ -41,7 +41,7 @@ function draw(){
       constraints[1]
     );
 
-    if(scrollPercentage>20 && scrollPercentage<84){
+    if(scrollPercentage>20 && scrollPercentage<75){
     y = map(
       noise(xOffset, yOffset),
       0,
@@ -60,7 +60,7 @@ function draw(){
     }
 
       vertex(x,y);
-      if (scrollPercentage>20 && scrollPercentage<84){
+      if (scrollPercentage>20 && scrollPercentage<75){
         xOffset+=0.01;
       }
       else{
@@ -68,7 +68,7 @@ function draw(){
       }
 
     };
-    if (scrollPercentage>20 && scrollPercentage<84){
+    if (scrollPercentage>20 && scrollPercentage<75){
       yOffset+=0.01;
     }
     else{
