@@ -34,8 +34,8 @@ canvas {
     padding:1em;
     border-radius:10px;
     backdrop-filter: blur( 2px );
-    background-color:#f1f1f1b3;
-    border:0.2em solid #313fbf;
+    background-color:$base-color + b3;
+    border:0.2em solid $deep-blue;
     transition: all 0.2s;
 }
 .landing-text:hover {
@@ -49,7 +49,7 @@ h1{
     font-size: 55pt;
 }
 h1 span{
-    color:#3f1dff;
+    color:$saturated-blue;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
@@ -59,7 +59,7 @@ h2{
     color:#827e92;
 }
 h2 span{
-    color:#4625c9;
+    color:$deep-blue;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -84,7 +84,7 @@ li{
     font-weight: 300;
     font-size: 18pt; 
     margin-bottom:0;
-    color:hsl(234, 59%, 47%);
+    color:$deep-blue;
 }
 
 .main-nav{
@@ -120,18 +120,18 @@ li{
     transition-property: color;
     transition-duration: 0.2s;
     text-decoration: none;
-    color: #313fbf;
+    color: $deep-blue;
   }
   
   .nav-bar-links a:hover {
-    color: #fe8b5d;
+    color: $complementary-color;
   }
   
   #icon{
     cursor: pointer;
   }
   #icon svg {
-    color:black;
+    color:$deep-blue;
     height:50px;
     transition-duration: 0.3s;;
   }
@@ -139,7 +139,7 @@ li{
     display:none;
   }
   #icon:hover svg{
-    color:#fe8b5d;
+    color:$complementary-color;
   }
   @media screen and (max-width: 800px) {
     .nav-bar-links{
@@ -183,15 +183,15 @@ li{
     text-decoration:none;
     font-family:'Montserrat',sans-serif;
     font-weight:600;
-    background-color:#3f1dff;
-    border:0.2em solid #3f1dff;
-    color:#ffffff;
+    background-color:$saturated-blue;
+    border:0.2em solid $saturated-blue;
+    color:white;
     text-align:center;
     transition: all 0.2s;
 }
 .button-nav:hover{
-    color:#3f1dff;
-    border:0.2em solid #3f1dff;
+    color:$saturated-blue;
+    border:0.2em solid $saturated-blue;
     background-color:#3f1dff00;
     transform: translateY(-5px);
 }
@@ -218,12 +218,12 @@ li{
     margin-left:5px;
     display:inline-block;
     padding:0.5em;
-    border:0.2em solid hsl(234, 59%, 47%);
+    border:0.2em solid $deep-blue;
     border-radius:20px;
     text-decoration:none;
     font-family:'Montserrat',sans-serif;
     font-weight:600;
-    color:#313fbf;
+    color:$deep-blue;
     text-align:center;
     transition: all 0.2s;
 }
@@ -250,14 +250,14 @@ li{
 }
 .link-text {
     text-decoration: none;
-    color: #5499ff;
+    color: $lighter-blue;
     transition-property: color;
     transition-duration: 0.2s;
 }
   .link-text:hover,
   .link-text:focus {
     text-decoration: underline;
-    color: #fe8b5d;
+    color: $complementary-color;
 }
 .project-card-others{
     width:30%;
@@ -299,7 +299,7 @@ li{
   border-radius:10px;
   backdrop-filter: blur( 2px );
   background-color:rgb(241, 241, 241, 0.7);
-  border:0.2em solid #313fbf;
+  border:0.2em solid $deep-blue;
   margin-bottom:30vh;
   margin-top:30vh;
 }
@@ -329,7 +329,7 @@ li{
   margin-right:auto;
   width:100vw;
   display:flex;
-  border-top:0.2em solid #313fbf;
+  border-top:0.2em solid $deep-blue;
 }
 .footer-links .link-text{
   text-align: center;
@@ -338,7 +338,7 @@ li{
 .footer-links p{
   width:100%;
 }
-*s{border:1px red solid;}
+
 @media only screen and (max-width: 1000px) {
   .footer-links{
     width:90vw;
