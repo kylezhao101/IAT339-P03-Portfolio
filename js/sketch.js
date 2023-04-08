@@ -31,8 +31,9 @@ window.addEventListener('resize', () =>{
   console.log("resize");
 });
 */
-
-window.onresize = function(){ location.reload(); }
+if(screen.width > 500){
+  window.onresize = function(){ location.reload(); }
+}
 
 function draw(){
   background("rgba(241, 241, 241, 0.1)");
