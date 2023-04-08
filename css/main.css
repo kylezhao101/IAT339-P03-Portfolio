@@ -17,6 +17,7 @@ body {
   margin: 0;
   color: rgb(2, 2, 2);
   background-color: #f1f1f1;
+  overflow-x: hidden;
 }
 
 canvas {
