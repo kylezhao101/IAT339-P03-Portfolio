@@ -31,7 +31,9 @@ window.addEventListener('resize', () =>{
   console.log("resize");
 });
 */
-if(screen.width > 500){
+
+var touchDevice = (navigator.maxTouchPoints || 'ontouchstart' in document.documentElement);
+if(!touchDevice){
   window.onresize = function(){ location.reload(); }
 }
 
