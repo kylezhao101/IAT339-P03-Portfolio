@@ -44,6 +44,7 @@ canvas {
     background-color:rgba(241, 241, 241, 0.9);
 }
 h1{ 
+    word-wrap: break-word;
     margin:0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -53,6 +54,7 @@ h1 span{
     color:$saturated-blue;
 }
 h2{
+    word-wrap: break-word;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30pt;
@@ -63,14 +65,23 @@ h2 span{
     color:$deep-blue;
 }
 h3{
+    word-wrap: break-word;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30pt;
 }
 h4{
+    word-wrap: break-word;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 30pt;
+    margin-bottom:15px;
+}
+h5{
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
     margin-bottom:15px;
 }
 p{  
@@ -405,3 +416,49 @@ li{
   }
 }
 
+.colour-palette {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.colour-palette-base {
+  padding: 1rem;
+  width: 50px;
+  background-color: $base-color;
+  flex-grow: 1;
+  border:1px solid black;
+}
+.colour-palette-black {
+  color:white;
+  padding: 1rem;
+  width: 50px;
+  background-color: #000000;
+  flex-grow: 1;
+  border:1px solid black;
+}
+.colour-palette-deepblue {
+  padding: 1rem;
+  width: 50px;
+  background-color: $deep-blue;
+  flex-grow: 1;
+}
+.colour-palette-lighterblue {
+  padding: 1rem;
+  width: 50px;
+  background-color: $lighter-blue;
+  flex-grow: 1;
+}
+.colour-palette-blue {
+  padding: 1rem;
+  width: 50px;
+  background-color: $saturated-blue;
+  flex-grow: 1;
+}
+.colour-palette-orange {
+  padding: 1rem;
+  width: 50px;
+  background-color: $complementary-color;
+  flex-grow: 1;
+}
